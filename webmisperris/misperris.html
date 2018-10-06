@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Mis Perris</title>
+	  
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		
+
+</head>
+<body background="img/base/bg2.png" >
+		<!--menú principal con logo-->
+		<div class="container">
+			<nav class="green accent-2">
+				<div class="nav-wrapper">
+				<a href="#" class="brand-logo left"><img src="img/base/logo.png"></a>
+					<ul id="nav-mobile-principal" class="right hide-on-med-and-down white-text">
+						<li><a class="white-text" href="#">Quienes Somos</a></li>
+						<li><a class="white-text" href="#">Servicios</a></li>
+						<li><a class="white-text modal-trigger" href="#modalContacto">Contáctanos</a></li>
+					</ul>
+					<!--menú para dispositivos móviles-->
+					<ul id="nav-mobile" class="sidenav light-green accent-1">
+							<li><a class="z-depth-2 white-text green accent-2" href="#">Inicio </a></li>
+							<li><a class="z-depth-2 white-text green accent-2" href="#">Quienes Somos</a></li>
+							<li><a class="z-depth-2 white-text green accent-2" href="#">Servicios</a></li>
+							<li><a class="z-depth-2 white-text green accent-2 modal-trigger" href="#modalContacto">Contáctanos</a></li>
+					</ul>
+					<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				</div>
+			</nav>
+		</div>
+
+		<!--carrousel slider con comentarios en las fotos-->
+		<div class="container section">
+			<div class="row ">
+				<div class="col s12 ">
+					<div class="slider">
+							<ul class="slides">
+								<li>
+									<img class=" responsive-img " src="img/adoptados/Apolo.jpg"> 
+									<div class="caption ">
+									<h3>...Libre como el viento!</h3>
+									<h5 class="light grey-text text-lighten-3">Su felicidad es nuestra mejor recomenpensa.</h5>
+									</div>
+								</li>
+								<li>
+									<img class="responsive-img" src="img/adoptados/Duque.jpg">
+									<div class="caption ">
+									<h3>...Disfrutando de la Naturaleza</h3>
+									<h5 class="light grey-text text-lighten-3">Contigo en todas partes.</h5>
+									</div>
+								</li>
+								<li>
+									<img class="responsive-img" src="img/adoptados/Tom.jpg"> 
+									<div class="caption">
+									<h3>...Un amigo incondicional</h3>
+									<h5 class="light grey-text text-lighten-3">Creciendo al lado tuyo...</h5>
+									</div>
+								</li>
+							</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		
+		<!--contenido-->
+		<div class="container">
+			<div class="row">
+				<div class="col s12 center m6 ">
+					<h2>Rescate</h2>
+					<h5>Etapa Uno</h5>
+					<hr>
+					<h6>Rescatamos perros en situación de peligro y abandono. Los rehabilitamos y los preparamos para buscarles un hogar.</h6>
+					<br>
+					<img class="responsive-img" src="img/base/rescate.jpg" width="110%">
+				</div>
+			
+				<div class="col s12 center m6">
+					<h2>Crowdfunding</h2>
+					<h5>Financiamiento</h5>
+					<hr>
+					<h6>Sigue nuestras redes sociales para informarte acerca de las diversas campañas y actividades que realizamos para obtener financiamiento para seguir ayudando.</h6>
+					<br>
+					<img class="responsive-img" src="img/base/crowfunding.jpg" >
+				</div>
+			</div>
+		</div>		  
+
+		
+
+			<!--boton campañas-->
+		<div class="container">
+			<div class="row">
+				<div class="col s6"></div>
+				<div class="col s12 m6 center">
+					<a class="waves-effect waves-ligth btn-small">Campañas</a>
+				</div>
+
+			</div>
+		</div>
+		<div class="container">
+			<ul class="collapsible">
+				<li>
+				  <div class="collapsible-header"><i class="material-icons">camera_alt</i>Mira nuestra Galería de rescatados</div>
+				  <div class="collapsible-body">
+					<div class="row">
+						<div class="col s6 m4 4">
+								<b>Chocolate</b>
+								<img class="responsive-img card materialboxed" src="img/rescatados/Chocolate.jpg" data-caption="Observador y Tranquilo...">
+						</div>
+				
+						<div class="col s6 m4 4">
+							<b>Bigotes</b>
+							<img class="responsive-img card materialboxed" src="img/rescatados/Bigotes.jpg" data-caption="Bigotes con su juguete preferido...">
+						</div>
+						<div class="col s12 m4 4">
+							<b>Luna</b>
+							<img class="responsive-img card materialboxed" src="img/rescatados/Luna.jpg" data-caption="Una pequeña recien empezando que aguarda por tí...">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s6 m4 4">
+							<b>Pexel</b>
+							<img class="responsive-img card materialboxed" src="img/rescatados/Pexel.jpg" data-caption="Listo para empezar la diversión...">
+						</div>
+						<div class="col s6 m4 4">
+							<b>Oso</b>
+							<img class="responsive-img card materialboxed" src="img/rescatados/Oso.jpg" data-caption="Tierno y leal, irá a contigo a donde quieras...">
+						</div>
+						<div class="col s6 m4 4">
+							<b>Wifi</b>
+							<img class="responsive-img card materialboxed" src="img/rescatados/Wifi.jpg" data-caption="Esperando por tí...">
+						</div>
+						
+					</div>
+				</div>
+
+			
+			</li>
+		</div>
+		<!--redes sociales-->
+		<div class="container">
+				<div class="row">
+					<div class="green accent-2 col s12 white-text ">
+						<div class="col s6 m6 valign-wrapper"> 
+								<i class="material-icons prefix">phone</i>
+								<h6>+56 9 98765431</h6> 
+						</div>
+						<div class="col s6 m6 valign-wrapper direction-right">
+							<a href="https://www.facebook.com" target="_blank"> <img src="img/rrss/facebook.png" width="35px" ></a>
+							<a href="https://www.instagram.com/?hl=es-la" target="_blan"><img src="img/rrss/insta.png" width="35px" ></a>
+							<img src="img/rrss/mail_123245.png" width="35px" >
+							<a href="https://twitter.com/?lang=es" target="_blank"><img src="img/rrss/twiter.png" width="35px" ></a>
+						</div>
+							
+					</div>
+				</div>
+			</div>
+
+		<!-- Modal Structure -->
+		<div id="modalContacto" class="modal modal-fixed-footer">
+			<div class="modal-content">
+				<h4>Contacto</h4>
+				<div class="row">
+						<form class="col s12">
+								<div class="row">
+
+									<div class="input-field col s6">
+										<i class="material-icons prefix">email</i>
+										<input id="txtEmail" type="email" class="validate">
+										<label for="txtEmail">Email</label>
+										<span class="helper-text" data-error="Email no válido" data-success="right"></span>
+									</div>
+
+									<div class="input-field col s6">
+										<i class="material-icons prefix">person</i>
+										<input type="text" id="txtRut" name="txtRut" required placeholder="Ingrese RUT" class="validate">
+									</div>
+
+									<div class="input-field col s12">
+										<i class="material-icons prefix">person</i>
+										<input type="text" onkeypress="return soloLetras(event)" id="txtNombre" class="validate">
+										<label for="txtNombre">Nombre</label>
+									</div>
+									<div class="input-field col s12 m6">
+										<i class="material-icons prefix">today</i>
+										<input id="txtFechaNacimiento" type='date' max='2000-12-31' class="validate">
+										<label for="txtFechaNacimiento">Fecha de Nacimiento</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="input-field col s12 m6">
+										<i class="material-icons prefix">phone</i>
+										<input id="txtTelefono" type="number" class="validate" onkeypress="return soloNumeros(event)" maxlength="10">
+										<label for="txtTelefono">Teléfono</label>
+									</div>
+
+								</div>
+
+								<div class="input-field col s12">
+										<select id="regiones"></select>
+										<label>Región</label>
+								</div>
+								<div class="input-field col s12">
+									<select id="comunas"></select>
+									<label>Comuna</label>
+								</div>
+								<p>
+									<p>Tipo de Vivienda:</p>
+									<label>
+										<input name="grupoTipoVivienda" type="radio" checked />
+										<span>Casa con Patio Grande</span>
+									</label>
+								</p>
+								<p>
+									<label>
+										<input name="grupoTipoVivienda" type="radio" />
+										<span>Casa con Patio Pequeño </span>
+									</label>
+								</p>
+								<p>
+									<label>
+										<input name="grupoTipoVivienda" type="radio" />
+										<span>Casa sin Patio</span>
+									</label>
+								</p>
+								<p>
+									<label>
+										<input name="grupoTipoVivienda" type="radio" />
+										<span>Departamento</span>
+									</label>
+								</p>
+							</form>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<a href="javascript:validarDatos();" class="waves-effect waves-green btn-flat">Enviar</a>
+			</div>
+		</div>
+			
+		
+		
+			
+	<!--JavaScript at end of body for optimized loading-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  	<script src="js/materialize.js"></script>
+ 	<script src="js/init.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script src="js/formulario.js"></script>
+	
+
+		
+		<script>
+				$(document).ready(function(){
+					/*** inicializadores de obtejos materialize ***/
+					$('.modal').modal();
+					$('.slider').slider();
+					$('.carousel').carousel();
+					$('.materialboxed').materialbox();					
+					$('.collapsible').collapsible();
+
+
+					/*** datos asociados a Regiones y Comunas ***/
+					var RegionesYcomunas = {
+										"regiones": [{
+												"NombreRegion": "Arica y Parinacota",
+												"comunasRegion": ["Arica", "Camarones", "Putre", "General Lagos"]
+										},
+											{
+												"NombreRegion": "Tarapacá",
+												"comunasRegion": ["Iquique", "Alto Hospicio", "Pozo Almonte", "Camiña", "Colchane", "Huara", "Pica"]
+										},
+											{
+												"NombreRegion": "Antofagasta",
+												"comunasRegion": ["Antofagasta", "Mejillones", "Sierra Gorda", "Taltal", "Calama", "Ollagüe", "San Pedro de Atacama", "Tocopilla", "María Elena"]
+										},
+											{
+												"NombreRegion": "Atacama",
+												"comunasRegion": ["Copiapó", "Caldera", "Tierra Amarilla", "Chañaral", "Diego de Almagro", "Vallenar", "Alto del Carmen", "Freirina", "Huasco"]
+										},
+											{
+												"NombreRegion": "Coquimbo",
+												"comunasRegion": ["La Serena", "Coquimbo", "Andacollo", "La Higuera", "Paiguano", "Vicuña", "Illapel", "Canela", "Los Vilos", "Salamanca", "Ovalle", "Combarbalá", "Monte Patria", "Punitaqui", "Río Hurtado"]
+										},
+											{
+												"NombreRegion": "Valparaíso",
+												"comunasRegion": ["Valparaíso", "Casablanca", "Concón", "Juan Fernández", "Puchuncaví", "Quintero", "Viña del Mar", "Isla de Pascua", "Los Andes", "Calle Larga", "Rinconada", "San Esteban", "La Ligua", "Cabildo", "Papudo", "Petorca", "Zapallar", "Quillota", "Calera", "Hijuelas", "La Cruz", "Nogales", "San Antonio", "Algarrobo", "Cartagena", "El Quisco", "El Tabo", "Santo Domingo", "San Felipe", "Catemu", "Llaillay", "Panquehue", "Putaendo", "Santa María", "Quilpué", "Limache", "Olmué", "Villa Alemana"]
+										},
+											{
+												"NombreRegion": "Región del Libertador Gral. Bernardo O’Higgins",
+												"comunasRegion": ["Rancagua", "Codegua", "Coinco", "Coltauco", "Doñihue", "Graneros", "Las Cabras", "Machalí", "Malloa", "Mostazal", "Olivar", "Peumo", "Pichidegua", "Quinta de Tilcoco", "Rengo", "Requínoa", "San Vicente", "Pichilemu", "La Estrella", "Litueche", "Marchihue", "Navidad", "Paredones", "San Fernando", "Chépica", "Chimbarongo", "Lolol", "Nancagua", "Palmilla", "Peralillo", "Placilla", "Pumanque", "Santa Cruz"]
+										},
+											{
+												"NombreRegion": "Región del Maule",
+												"comunasRegion": ["Talca", "Constitución", "Curepto", "Empedrado", "Maule", "Pelarco", "Pencahue", "Río Claro", "San Clemente", "San Rafael", "Cauquenes", "Chanco", "Pelluhue", "Curicó", "Hualañé", "Licantén", "Molina", "Rauco", "Romeral", "Sagrada Familia", "Teno", "Vichuquén", "Linares", "Colbún", "Longaví", "Parral", "ReVro", "San Javier", "Villa Alegre", "Yerbas Buenas"]
+										},
+											{
+												"NombreRegion": "Región del Biobío",
+												"comunasRegion": ["Concepción", "Coronel", "Chiguayante", "Florida", "Hualqui", "Lota", "Penco", "San Pedro de la Paz", "Santa Juana", "Talcahuano", "Tomé", "Hualpén", "Lebu", "Arauco", "Cañete", "Contulmo", "Curanilahue", "Los Álamos", "Tirúa", "Los Ángeles", "Antuco", "Cabrero", "Laja", "Mulchén", "Nacimiento", "Negrete", "Quilaco", "Quilleco", "San Rosendo", "Santa Bárbara", "Tucapel", "Yumbel", "Alto Biobío", "Chillán", "Bulnes", "Cobquecura", "Coelemu", "Coihueco", "Chillán Viejo", "El Carmen", "Ninhue", "Ñiquén", "Pemuco", "Pinto", "Portezuelo", "Quillón", "Quirihue", "Ránquil", "San Carlos", "San Fabián", "San Ignacio", "San Nicolás", "Treguaco", "Yungay"]
+										},
+											{
+												"NombreRegion": "Región de la Araucanía",
+												"comunasRegion": ["Temuco", "Carahue", "Cunco", "Curarrehue", "Freire", "Galvarino", "Gorbea", "Lautaro", "Loncoche", "Melipeuco", "Nueva Imperial", "Padre las Casas", "Perquenco", "Pitrufquén", "Pucón", "Saavedra", "Teodoro Schmidt", "Toltén", "Vilcún", "Villarrica", "Cholchol", "Angol", "Collipulli", "Curacautín", "Ercilla", "Lonquimay", "Los Sauces", "Lumaco", "Purén", "Renaico", "Traiguén", "Victoria", ]
+										},
+											{
+												"NombreRegion": "Región de Los Ríos",
+												"comunasRegion": ["Valdivia", "Corral", "Lanco", "Los Lagos", "Máfil", "Mariquina", "Paillaco", "Panguipulli", "La Unión", "Futrono", "Lago Ranco", "Río Bueno"]
+										},
+											{
+												"NombreRegion": "Región de Los Lagos",
+												"comunasRegion": ["Puerto Montt", "Calbuco", "Cochamó", "Fresia", "FruVllar", "Los Muermos", "Llanquihue", "Maullín", "Puerto Varas", "Castro", "Ancud", "Chonchi", "Curaco de Vélez", "Dalcahue", "Puqueldón", "Queilén", "Quellón", "Quemchi", "Quinchao", "Osorno", "Puerto Octay", "Purranque", "Puyehue", "Río Negro", "San Juan de la Costa", "San Pablo", "Chaitén", "Futaleufú", "Hualaihué", "Palena"]
+										},
+											{
+												"NombreRegion": "Región Aisén del Gral. Carlos Ibáñez del Campo",
+												"comunasRegion": ["Coihaique", "Lago Verde", "Aisén", "Cisnes", "Guaitecas", "Cochrane", "O’Higgins", "Tortel", "Chile Chico", "Río Ibáñez"]
+										},
+											{
+												"NombreRegion": "Región de Magallanes y de la Antártica Chilena",
+												"comunasRegion": ["Punta Arenas", "Laguna Blanca", "Río Verde", "San Gregorio", "Cabo de Hornos (Ex Navarino)", "AntárVca", "Porvenir", "Primavera", "Timaukel", "Natales", "Torres del Paine"]
+										},
+											{
+												"NombreRegion": "Región Metropolitana de Santiago",
+												"comunasRegion": ["Cerrillos", "Cerro Navia", "Conchalí", "El Bosque", "Estación Central", "Huechuraba", "Independencia", "La Cisterna", "La Florida", "La Granja", "La Pintana", "La Reina", "Las Condes", "Lo Barnechea", "Lo Espejo", "Lo Prado", "Macul", "Maipú", "Ñuñoa", "Pedro Aguirre Cerda", "Peñalolén", "Providencia", "Pudahuel", "Quilicura", "Quinta Normal", "Recoleta", "Renca", "San Joaquín", "San Miguel", "San Ramón", "Vitacura", "Puente Alto", "Pirque", "San José de Maipo", "Colina", "Lampa", "TilVl", "San Bernardo", "Buin", "Calera de Tango", "Paine", "Melipilla", "Alhué", "Curacaví", "María Pinto", "San Pedro", "Talagante", "El Monte", "Isla de Maipo", "Padre Hurtado", "Peñaflor"]
+										}]
+										}
+
+
+
+
+					var iRegion = 0;
+					var htmlRegion = '<option value="sin-region">Seleccione región</option>';
+					var htmlComunas = '<option value="sin-region">Seleccione comuna</option>';
+
+					jQuery.each(RegionesYcomunas.regiones, function () {
+						htmlRegion = htmlRegion + '<option value="' + RegionesYcomunas.regiones[iRegion].NombreRegion + '">' + RegionesYcomunas.regiones[iRegion].NombreRegion + '</option>';
+						iRegion++;
+					});
+
+					jQuery('#regiones').html(htmlRegion);
+					jQuery('#comunas').html(htmlComunas);
+
+					jQuery('#regiones').change(function () {
+						var iRegiones = 0;
+						var valorRegion = jQuery(this).val();
+						var htmlComuna = '<option value="sin-comuna">Seleccione comuna</option>';
+						
+						jQuery.each(RegionesYcomunas.regiones, function () {
+							if (RegionesYcomunas.regiones[iRegiones].NombreRegion == valorRegion) {
+								var iComunas = 0;
+								
+								jQuery.each(RegionesYcomunas.regiones[iRegiones].comunasRegion, function () {
+									htmlComuna = htmlComuna + '<option value="' + RegionesYcomunas.regiones[iRegiones].comunasRegion[iComunas] + '">' + RegionesYcomunas.regiones[iRegiones].comunasRegion[iComunas] + '</option>';
+									iComunas++;
+								});
+								
+							}
+							iRegiones++;
+						});
+						jQuery('#comunas').html(htmlComuna);
+						$('#comunas').formSelect();
+					});
+					
+					jQuery('#regiones').change(function () {
+						if (jQuery(this).val() == 'sin-region') {
+							//alert('selecciones Región');
+						}
+					});
+
+				$('select').formSelect();
+
+			});
+					
+		</script>	
+
+</body>
+</html>
